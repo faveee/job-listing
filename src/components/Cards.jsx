@@ -52,7 +52,8 @@ const Cards = ({
           <p className='text-gray-500'>{postedAt} · {contract} · {location}</p>
       </div>
       <div className="flex flex-wrap items-center border-t border-gray-200 mt-4 pt-4 lg:ml-auto lg:border-0 lg:pt-0 lg:mt-0">
-        {tags?tags.map(tag=><span className=" text-teal-500 bg-teal-50 font-bold hover:bg-teal-500 hover:text-white  m-2 p-2 rounded cursor-pointer" onClick={()=>handleTagClick(tag)}>{tag}</span>):('')}</div>
+        {tags?tags.map(tag=><span className=" text-teal-500 bg-teal-50 font-bold hover:bg-teal-500 hover:text-white  m-2 p-2 rounded cursor-pointer"
+        onClick={()=>handleTagClick(tag)}>{tag}</span>):('')}</div>
     </div>)
 };
 
