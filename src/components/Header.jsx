@@ -8,7 +8,6 @@ export default function Header() {
         className="w-screen h-[120px] bg-teal-600"
         style={{
           backgroundImage: `url(/background.svg)`,
-      
         }}
       ></div>
     </div>

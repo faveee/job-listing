@@ -1,18 +1,3 @@
-
-//import Primary from "./sections/Primary";
-
-//function App() {
-
-  //return (
-   // <div className="w-full h-full bg-red-500">
-    //<Primary />
-
-    //</div>
-  //)
-//}
-
-//export default App
-
 import React, { useState, useEffect } from "react";
 import data from "./assets/data.json";
 import Cards from "./components/Cards";
@@ -79,11 +64,7 @@ function App() {
         <p>Jobs are fetching...</p>
       ) : (
         filterdJobs.map((job) => (
-          <Cards
-            job={job}
-            key={job.id}
-            handleTagClick={handleTagClick}
-          />
+          <Cards job={job} key={job.id} handleTagClick={handleTagClick} />
         ))
       )}
     </div>
