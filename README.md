@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://job-listing-inky-ten.vercel.app/)
+- Live Site URL: [Job List](https://job-listing-inky-ten.vercel.app/)
 
 ### Built with
 

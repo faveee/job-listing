@@ -6,14 +6,17 @@ export default {
     "./src/**/*.{html,js,jsx}",
   ],
   theme: {
+    fontFamily: {
+      display: ["League Spartan", "sans-serif"],
+    },
     extend: {
-      colors: {
-        DesaturatedDarkCyan: "hsl(180, 29%, 50%)",
-        BackgroundColor: "hsl(180, 52%, 96%)",
-        FilterColor: "hsl(180, 31%, 95%)",
-        DarkGrayishCyan: "hsl(180, 8%, 52%)",
-        VeryDarkGrayishCyan: "hsl(180, 14%, 20%)",
-      },
+      //     colors: {
+      //       DesaturatedDarkCyan: "hsl(180, 29%, 50%)",
+      //       BackgroundColor: "hsl(180, 52%, 96%)",
+      //       FilterColor: "hsl(180, 31%, 95%)",
+      //       DarkGrayishCyan: "hsl(180, 8%, 52%)",
+      //       VeryDarkGrayishCyan: "hsl(180, 14%, 20%)",
+      //     },
     },
   },
   plugins: [],

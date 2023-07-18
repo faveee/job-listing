@@ -39,7 +39,7 @@ const Cards = ({
         tags.push(...tools);
     }
     return(
-    <div className={`flex flex-col bg-white shadow-md my-16 mx-10 p-8  ${featured && 'border-l-4 border-teal-500 border-solid'} lg:flex-row`}>
+    <div className={`flex flex-col font-display bg-white shadow-md my-16 mx-10 p-8  ${featured && 'border-l-4 border-teal-500 border-solid'} lg:flex-row`}>
       <div>
           <img className='w-20 h-20 -mt-16 mb-4 lg:my-0 lg:w-24 lg:h-24' src={logo} alt={company}></img>
       </div>
